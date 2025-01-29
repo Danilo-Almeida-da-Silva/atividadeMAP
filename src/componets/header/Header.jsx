@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import s from '../header/Header.module.scss'
 
 export default function Header(){
     return(
