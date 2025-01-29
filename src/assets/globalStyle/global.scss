@@ -34,14 +34,14 @@
             border-radius: 10px;
             border: 1px solid rgb(104, 104, 104);
             width: 100%;
-            background-color: rgba(255, 255, 255, 0.925);
+            background-color: rgb(255, 255, 255);
             height: 50vh;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
             text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgb(0, 255, 221);
 
 
             p {
@@ -74,9 +74,12 @@
     }
 
     .imagens {
-        width: 20vw;
-        height: 25vh;
+        display: flex;
+        width: 50%;
+        height: 33vh;
         border-radius: 10px 10px 0 0;
     }
 
 }
+
+@media (max-width: 480px) {}
